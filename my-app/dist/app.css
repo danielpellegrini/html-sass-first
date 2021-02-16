@@ -1,1 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+}
 
+.main {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding: 130px 500px;
+}
+.main-title, .main-sub {
+  color: coral;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+.main-paragraph {
+  text-transform: capitalize;
+}
